@@ -6,6 +6,7 @@ const postcss = require('gulp-postcss');
 gulp.task('js', function () {
   return gulp.src([
     './components/**/*.js',
+    './components/*.js',
     '!./components/**/*.spec.js',
     '!./components/**/__test__',
     '!./components/__mocks__/**/*.js'
@@ -36,7 +37,7 @@ gulp.task('css', function () {
 });
 
 gulp.task('tsd', function () {
-  gulp.src('./components/**/*.d.ts')
+  gulp.src(['./components/**/*.d.ts', './components/*.d.ts'])
     .pipe(gulp.dest('./lib'));
 });
 

@@ -9,10 +9,14 @@ React Toolbox is a set of [React](http://facebook.github.io/react/) components t
 
 ## Installation
 
-React Toolbox can be installed as an [npm package](https://www.npmjs.org/package/react-toolbox):
+React Toolbox can be installed as an [npm package](https://www.npmjs.com/package/@mattbark/react-toolbox):
 
 ```bash
-$ npm install --save react-toolbox
+$ yarn add @mattbark/react-toolbox
+```
+
+```bash
+$ npm install --save @mattbark/react-toolbox
 ```
 
 ## Prerequisites
@@ -76,6 +80,13 @@ Configure webpack 2.x or 3.x loader for .css files to use postcss:
           "postcss-loader"
         ]
       }
+```
+
+Alias the package to `react-toolbox`:
+```js
+  alias: {
+      'react-toolbox': path.resolve(__dirname, 'node_modules/@mattbark/react-toolbox'),
+    },
 ```
 
 ## Basic usage
