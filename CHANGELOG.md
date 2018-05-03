@@ -1,6 +1,13 @@
 <a name="2.0.0-beta.12"></a>
 ## 2.0.0-beta.12 (2018-05-03)
 
+* Release 2.0.0-beta.13 ([32d49a3](https://github.com/matthax/react-toolbox/commit/32d49a3))
+
+
+
+<a name="2.0.0-beta.12"></a>
+## 2.0.0-beta.12 (2018-05-03)
+
 
 
 
