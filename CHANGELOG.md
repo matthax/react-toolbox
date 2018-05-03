@@ -1,6 +1,12 @@
 <a name="2.0.0-beta.12"></a>
 ## 2.0.0-beta.12 (2018-05-03)
 
+
+
+
+<a name="2.0.0-beta.12"></a>
+## 2.0.0-beta.12 (2018-05-03)
+
 * Add `accept` property to `BrowseButton` (#1533) ([934ffd2](https://github.com/matthax/react-toolbox/commit/934ffd2)), closes [#1533](https://github.com/matthax/react-toolbox/issues/1533)
 * Add `multiple` property to `BrowseButton` (#1656) ([071a4d3](https://github.com/matthax/react-toolbox/commit/071a4d3)), closes [#1656](https://github.com/matthax/react-toolbox/issues/1656)
 * Add default export TypeScript type to IconButton (#1577) ([79e031e](https://github.com/matthax/react-toolbox/commit/79e031e)), closes [#1577](https://github.com/matthax/react-toolbox/issues/1577)
